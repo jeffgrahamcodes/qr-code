@@ -1,7 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import 'tailwindcss';
 
 @theme {
-  --spacing: 4px;
+  --spacing: 8px;
+  --text-xl: 22px;
+  --text-sm: 15px;
   --image-radius: 10px;
   --card-radius: 20px;
+  --my-tracking: 0.2px;
+}
+
+.text-preset-1 {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.text-preset-2 {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
