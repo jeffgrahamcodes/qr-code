@@ -13,7 +13,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -32,45 +31,47 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Semantic HTML5 markup
 - [Tailwind](https://tailwindcss.com/) - CSS Framework
+- Custom CSS variables for color and spacing
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This project helped reinforce the importance of semantic HTML for accessibility. I transitioned from basic `div` tags to more meaningful semantic elements like `<main>`, `<article>`, `<section>`, `<figure>`, `<header>`, and `<footer>`. I also learned how to:
 
-To see how you can add code snippets, see below:
+- Center content using Tailwind’s flex utilities
+- Create reusable utility classes using CSS variables
+- Resolve accessibility warnings by adding landmarks and using semantic structure
+- Improve the visual layout using Tailwind's spacing, sizing, and shadow classes
+- Structure my project better by organizing assets and source files into a `src` folder
+
+Here’s an example of a section I’m proud of:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<main class="h-screen flex flex-col justify-center items-center">
+  <article class="...">
+    <figure>
+      <img src="./images/image-qr-code.png" alt="qr-code" />
+    </figure>
+    <section class="...">
+      <header>
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your
+          coding skills to the next level
+        </p>
+      </header>
+    </section>
+  </article>
+</main>
 ```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉');
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I want to continue refining my use of semantic HTML and accessibility best practices. I’m also interested in learning how to integrate automated accessibility testing tools earlier in the development process.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [HTML Semantics Cheat Sheet](https://learntheweb.courses/topics/html-semantics-cheat-sheet/) - This helped get rid of the warnings from the accessibility report.
+- [Tailwind Cheat Sheet](https://nerdcave.com/tailwind-cheat-sheet) - Cheat sheet to quickly find Tailwind class names and CSS properties .
 
 ## Author
 
