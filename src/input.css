@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 
 @theme {
-  --*: initial;
   --spacing: 4px;
+  --my-radius: 20px;
 }
