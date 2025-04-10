@@ -8,6 +8,9 @@
   --image-radius: 10px;
   --card-radius: 20px;
   --my-tracking: 0.2px;
+  --slate-900: #1f314f;
+  --slate-500: #68778d;
+  --slate-300: #d5e1ef;
 }
 
 .text-preset-1 {

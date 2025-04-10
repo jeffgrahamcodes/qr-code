@@ -26,6 +26,9 @@
     --image-radius: 10px;
     --card-radius: 20px;
     --my-tracking: 0.2px;
+    --slate-900: #1f314f;
+    --slate-500: #68778d;
+    --slate-300: #d5e1ef;
   }
 }
 @layer base {
@@ -225,8 +228,8 @@
   .rounded-\(--image-radius\) {
     border-radius: var(--image-radius);
   }
-  .bg-slate-300 {
-    background-color: var(--color-slate-300);
+  .bg-\(--slate-300\) {
+    background-color: var(--slate-300);
   }
   .bg-white {
     background-color: var(--color-white);
@@ -271,11 +274,8 @@
     --tw-tracking: var(--tracking-normal);
     letter-spacing: var(--tracking-normal);
   }
-  .text-slate-500 {
-    color: var(--color-slate-500);
-  }
-  .text-slate-900 {
-    color: var(--color-slate-900);
+  .text-\(--slate-500\) {
+    color: var(--slate-500);
   }
   .underline {
     text-decoration-line: underline;
