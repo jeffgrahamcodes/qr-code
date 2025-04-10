@@ -2,5 +2,6 @@
 
 @theme {
   --spacing: 4px;
-  --my-radius: 20px;
+  --image-radius: 10px;
+  --card-radius: 20px;
 }
